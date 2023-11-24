@@ -7,10 +7,10 @@ import { Routes, Route, Link, Navigate} from 'react-router-dom';
 
 
 const USER_LIST = [
-  { "name": "Quan", "pic": "/image/ava1.jpg", "address": "HN" },
-  { "name": "Thu", "pic": "/image/ava2.jpg", "address": "SG" },
-  { "name": "Bao", "pic": "/image/ava3.jpg", "address": "Hue" },
-  { "name": "Binh", "pic": "/image/ava4.jpg", "address": "Da Nang" }
+  { "name": "Quan", "pic": "image/ava1.jpg", "address": "HN" },
+  { "name": "Thu", "pic": "./image/ava2.jpg", "address": "SG" },
+  { "name": "Bao", "pic": "./image/ava3.jpg", "address": "Hue" },
+  { "name": "Binh", "pic": "./image/ava4.jpg", "address": "Da Nang" }
 ];
 
 function App() {
